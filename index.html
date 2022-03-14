@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Start</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="css/bootstrap.css"> 
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <script src="jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="script.js"></script>
+
+</head>
+<body>
+
+<header>
+ <nav id="header-nav" class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+                <a href="index.html" class="pull-left visible-md visible-lg">
+                <img id="logo-img" alt="logo image" src="images/a.png">
+                </a>
+                
+                <div class="navbar-brand">
+                    <a href="index.html"><h1>David Chu's China Bistro</h1></a>
+                    <p>
+                        <img src="images/star.png" class="star" alt="Kosher Certification">
+                        <span>Kosher Certified</span>
+                    </p>
+                </div>
+        </div>
+        <span class="menu-item">Menu</span> 
+        <span class="menu-item">Contact</span>
+        <span class="menu-item">Find Us</span>
+
+    </div>
+ </nav>
+</header>    
+
+<div id="main-content" class="container">
+    <center>
+   <div class="jumbotron">
+     <img src="images/bg.png" alt="inside restuarant" class="img-responsive visible-xs">
+   </div>
+   </center>   <!---End of Jumbotron--->
+
+   <div id="home-tiles" class="row">
+     <div class="col-md-4 col-sm-6 col-xs-12">
+     <a href="menu-categories.html">
+        <div id="menu-tile"><span>menu</span></div>
+     </a>
+     </div>
+     <div class="col-md-4 col-sm-6 col-xs-12">
+     <a href="specials-category.html">
+        <div id="specials-tile"><span>specials</span></div>
+     </a>
+     </div>
+     <div class="col-md-4 col-sm-12 col-xs-12">  
+        <a href="https://goo.gl/maps/3jUm1rdcTVxny9rf9" target="_blank">
+            <div id="map-tile">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1809030.9120699256!2d25.9591797468254!3d-27.678249707349256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-26.2438954!2d27.8382714!4m5!1s0x1e8fc568448cf235%3A0xd30b9b175ff584fd!2scentral%20university!3m2!1d-29.1216589!2d26.212830399999998!5e0!3m2!1sen!2sza!4v1646671606215!5m2!1sen!2sza" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              <span>directions</span>  
+            </div>
+        </a>
+     </div>     
+   </div>  
+
+</div>     <!---End of 3 tiles--->
+
+<footer class="panel-footer">
+    <div class="container">
+        <div class="row">
+            <section id="hours" class="col-sm-4">
+            <span>Hours:</span><br>
+                  Sun-Thur: 11:55am - 10:00pm<br>
+                  Fri: 11:55am - 2:30pm<br>
+                  Saturday Closed
+            <hr class="visible-xs">
+            </section>
+            <section id="address" class="col-sm-4">
+            <span>Address:</span><br>
+                  1490 Namane Street<br>
+                  Batho, Bloemfonetin<br>
+                  <p>Delivery area only within 3km</p>
+            <hr class="visible-xs">
+            </section>
+            <section id="testimonials" class="col-sm-4">
+                <p>"The best Chinese restaurant I have ever been too!"</p>
+                <p>"Couldn't ask for more.I will be back."</p>
+
+            <hr class="visible-xs">
+            </section>
+        </div>
+        <div class="text-center">&copy; Copyright David Chu's Chinese Bistro 2022</div>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
